@@ -1,0 +1,44 @@
+html {
+    font-family: arial;
+}
+body {
+    background-color: powderblue;
+}
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rundesbild {
+    border-radius: 100%;
+}
+img {
+    width: 10%;
+    height: auto;
+}
+img:hover {
+  opacity: 0.7;
+}
+section {
+    height: 100vh;
+}
+h1 {
+    font-size:6rem;
+    background: linear-gradient(to left; rgb(112, 101, 214), rgb(230, 106, 213));
+    -webkit-background-clip: text;
+    color: red;
+}
+.titelschrift {
+  color: white;
+  text-align: center;
+}
+.profilbutton {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
